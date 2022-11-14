@@ -1,0 +1,232 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\joena\\RiderProjects\\SVG\\View\\View.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\joena\\RiderProjects\\SVG\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\joena\\RiderProjects\\SVG\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\joena\\RiderProjects\\SVG\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\joena\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joena\\RiderProjects\\SVG\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\joena\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\joena\\RiderProjects\\SVG\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\joena\\RiderProjects\\SVG\\Model\\Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Blazor-ApexCharts": {
+              "target": "Package",
+              "version": "[0.9.15-beta, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "PSC.Blazor.Components.Icons": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "animate.css": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\joena\\RiderProjects\\SVG\\Model\\Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\joena\\RiderProjects\\SVG\\Model\\Model.csproj",
+        "projectName": "Model",
+        "projectPath": "C:\\Users\\joena\\RiderProjects\\SVG\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\joena\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joena\\RiderProjects\\SVG\\Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\joena\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Blazor-ApexCharts": {
+              "target": "Package",
+              "version": "[0.9.15-beta, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "PSC.Blazor.Components.Icons": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "animate.css": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\joena\\RiderProjects\\SVG\\View\\View.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\joena\\RiderProjects\\SVG\\View\\View.csproj",
+        "projectName": "View",
+        "projectPath": "C:\\Users\\joena\\RiderProjects\\SVG\\View\\View.csproj",
+        "packagesPath": "C:\\Users\\joena\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joena\\RiderProjects\\SVG\\View\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\joena\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\joena\\RiderProjects\\SVG\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\joena\\RiderProjects\\SVG\\Domain\\Domain.csproj"
+              },
+              "C:\\Users\\joena\\RiderProjects\\SVG\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\joena\\RiderProjects\\SVG\\Model\\Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Blazor-ApexCharts": {
+              "target": "Package",
+              "version": "[0.9.15-beta, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "PSC.Blazor.Components.Icons": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "animate.css": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
